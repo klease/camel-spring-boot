@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>archetypes</artifactId>
-        <version>3.12.0-SNAPSHOT</version>
+        <version>3.13.0-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.camel.archetypes</groupId>
@@ -34,7 +34,7 @@
     <packaging>maven-archetype</packaging>
 
     <properties>
-         <spring-boot-version>2.5.4</spring-boot-version>
+         <spring-boot-version>2.5.5</spring-boot-version>
          <archetype.test.settingsFile>src/test/resources/settings.xml</archetype.test.settingsFile> <!-- Needed to download camel-spring-boot snapshots -->
     </properties>
 

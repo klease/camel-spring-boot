@@ -22,12 +22,12 @@
   <parent>
     <groupId>org.apache.camel.springboot</groupId>
     <artifactId>spring-boot</artifactId>
-    <version>3.12.0-SNAPSHOT</version>
+    <version>3.13.0-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>org.apache.camel.springboot</groupId>
   <artifactId>camel-spring-boot-bom</artifactId>
-  <version>3.12.0-SNAPSHOT</version>
+  <version>3.13.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Camel SB Tooling :: BOM</name>
   <description>Camel Spring-Boot BOM</description>
@@ -715,12 +715,27 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
+        <artifactId>camel-huaweicloud-dms-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-huaweicloud-functiongraph-starter</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-huaweicloud-iam-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.springboot</groupId>
+        <artifactId>camel-huaweicloud-imagerecognition-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.springboot</groupId>
+        <artifactId>camel-huaweicloud-obs-starter</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
@@ -1441,26 +1456,6 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-spring-boot-xml-starter</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.springboot</groupId>
-        <artifactId>camel-spring-cloud-consul-starter</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.springboot</groupId>
-        <artifactId>camel-spring-cloud-netflix-starter</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.springboot</groupId>
-        <artifactId>camel-spring-cloud-starter</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.springboot</groupId>
-        <artifactId>camel-spring-cloud-zookeeper-starter</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
